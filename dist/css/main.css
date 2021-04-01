@@ -25,15 +25,16 @@
   position: fixed;
   top: 0;
   width: 100%;
+  display: flex;
+  flex-direction: column wrap;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
   .menu-branding, .menu-nav {
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    float: left;
     width: 50%;
     height: 100vh;
     overflow: hidden; }
