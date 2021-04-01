@@ -99,23 +99,23 @@
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
-  ul.menu-nav,
-  div.menu-branding {
-    float: none;
-    width: 100%;
-    min-height: 0; }
-    ul.menu-nav.show,
-    div.menu-branding.show {
-      transform: translate3d(0, 0, 0); }
-  .menu-nav {
-    height: 75vh;
-    background: rgba(68, 68, 68, 0.96); }
-  .menu-branding {
-    height: 25vh; }
-    .menu-branding ba
-.portrait {
-      background: url(/dist/img/portrait_small.jpg);
-      background-size: cover; } }
+  ul.menu-nav.show,
+  div.menu-branding.show {
+    transform: translate3d(0, 0, 0); }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; }
+    .menu-nav {
+      flex: 5;
+      background: rgba(68, 68, 68, 0.96);
+      transform: translate3d(-100%, 0%, 0); }
+    .menu-branding {
+      flex: 1;
+      transform: translate3d(-100%, 0%, 0); }
+      .menu-branding .portrait {
+        background: url(/dist/img/portrait_small.jpg);
+        background-size: cover; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
