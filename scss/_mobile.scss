@@ -1,5 +1,9 @@
 // Widescreen
 @include mediaXl {
+  body {
+    max-width: 1280px;
+    margin: auto;
+  }
   .projects {
     grid-template-columns: repeat(4,1fr);
   }
