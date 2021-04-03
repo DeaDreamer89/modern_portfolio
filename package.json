@@ -3,15 +3,13 @@
   "version": "1.0.0",
   "description": "Responsive portfolio website",
   "main": "index.js",
-  "homepage": "https://deadreamer89.github.io/modern_portfolio",
   "dependencies": {
     "gh-pages": "^3.1.0",
     "node-sass": "^5.0.0"
   },
   "devDependencies": {},
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/",
-    "deploy": "gh-pages -d dist"
+    "sass": "node-sass -w scss/ -o dist/css/"
   },
   "author": "Krzysztof Zacharjasz",
   "license": "MIT"
