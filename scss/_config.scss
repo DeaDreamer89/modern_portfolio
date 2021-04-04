@@ -3,7 +3,7 @@
 $primary-color: #444;
 $secondary-color: #eece1a;
 $show-home-image: true;
-$home-image: url(/dist/img/background.jpg);
+$home-image: url(dist/img/background.jpg);
 $background-opacity: 0.9;
 
 @mixin easeOut {
@@ -40,13 +40,15 @@ $background-opacity: 0.9;
 }
 
 // Set Text color
-@function set-text-color ($color) {
-  @if (lightness($color) > 40){
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
     @return #000;
-    } @else {@return #fff};
+  } @else {
+    @return #fff;
+  }
 }
 
-//  Media Queries Mixins 
+//  Media Queries Mixins
 @mixin mediaSm {
   @media screen and (max-width: 500px) {
     @content;
@@ -58,7 +60,7 @@ $background-opacity: 0.9;
   }
 }
 @mixin mediaLg {
-  @media screen and (min-width: 769px) and (max-width:1170px) {
+  @media screen and (min-width: 769px) and (max-width: 1170px) {
     @content;
   }
 }
