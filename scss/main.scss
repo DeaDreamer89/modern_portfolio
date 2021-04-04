@@ -1,5 +1,5 @@
-@import '_config';
-@import '_menu';
+@import 'config';
+@import 'menu';
 
 * {
   box-sizing: border-box;
@@ -182,4 +182,4 @@ main {
   height: 60px;
 }
 
-@import '_mobile';
+@import 'mobile';
