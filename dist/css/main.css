@@ -54,7 +54,7 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      width: 250px;
+      width: 350px;
       height: 250px;
       background: url("/dist/img/portrait.jpg");
       opacity: 1;
