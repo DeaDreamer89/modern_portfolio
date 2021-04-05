@@ -2,7 +2,7 @@
 .menu-btn {
   position: absolute;
   z-index: 5;
-  right: 3px;
+  right: 35px;
   top: 35px;
   cursor: pointer;
   transition: all 0.5s ease-out; }
@@ -242,11 +242,13 @@ main {
   height: 60px; }
 
 @media screen and (min-width: 1171px) {
-  body {
-    max-width: 1280px;
-    margin-right: auto; }
-  .projects {
-    grid-template-columns: repeat(4, 1fr); } }
+  .menu-btn {
+    margin-right: 15vw; }
+  main {
+    max-width: 90vw;
+    margin: 0 15vw 0 15vw; }
+    main .projects {
+      grid-template-columns: repeat(4, 1fr); } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
